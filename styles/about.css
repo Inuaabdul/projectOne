@@ -1,0 +1,13 @@
+table {
+    margin-top: 100px;
+    border-collapse: collapse;
+    height: auto;
+}
+
+table tr th {
+    background-color: rgb(219, 144, 166);
+}
+
+td {
+    background-color: rgb(221, 175, 189);
+}

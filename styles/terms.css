@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    position: relative;
+}
+
+.container aside {
+    min-width: 300px;
+    width: 300px;
+    height: auto;
+    padding: 26px 13px;
+    background-color: rgb(251, 234, 239);
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+
+.container .section {
+    margin-left: 310px;
+    padding: 10px;
+    height: calc(100vh - 160px);
+    background-color: rgb(220, 188, 198);
+    overflow-y: scroll;
+}
